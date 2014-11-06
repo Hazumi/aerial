@@ -1,0 +1,130 @@
+header{
+    background: #f6f6f6;
+}
+
+header h1{
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 0.15em;
+    font-size: 2.8em;
+    padding: 0 0 0 1em;
+    color: #041D37;
+}
+
+.subheader{
+    font-size: .85em;
+    letter-spacing: .3em;
+    padding: 1.4em 0 0 4.3em;
+    color: #1C3553;
+    background: #f6f6f6;
+}
+
+body h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.9em;
+    letter-spacing: .05em;
+}
+
+body h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+    letter-spacing: .03em;
+}
+
+body h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: .6em;
+}
+
+body p{
+    text-indent: 1em;
+}
+
+p{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    #letter-spacing: 0.1em;
+    font-size: 1.2em;
+    #padding: 0.5em;
+    #text-align: center;
+    color: #1C3553;
+}
+
+nav ul{
+    padding: 10px;
+    float: right;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0.5em 15px 0.5em 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    letter-spacing: 0.15em;
+    text-align: center;
+}
+
+nav ul li:hover{
+    background: #eee;
+    transition: color .7s linear;
+    -o-transition:.7s;
+    -ms-transition:.7s;
+    -moz-transition:.7s;
+    -webkit-transition:.7s;
+    transition:.7s;
+}
+
+nav ul li a{
+    color: #2B4B6F;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: #000;
+    transition: color .7s linear;
+    -o-transition:.7s;
+    -ms-transition:.7s;
+    -moz-transition:.7;
+    -webkit-transition:.7s;
+    transition:.7s;
+    border-bottom: 3px #ccc solid;
+}
+
+.row{
+    background: #e0e5eb;
+}
+
+.col-xs{
+    margin: 0 auto;
+}
+
+.col-t{
+    color: #041D37;
+    background: #b9c5d2;
+    font-size: 1.6em;
+}
+
+.col-b{
+    #color: #333;
+    #background: #f6f6f6;
+    padding: 1em;
+    #border-radius: 0 35px 0 0;
+}
+
+.col-b-m{
+    #border-left: 1px #ddd dashed;
+    #border-right: 1px #ddd dashed;
+}
+
+footer{
+    color: #ddd;
+    background: #2B4B6F;
+    padding: 3px;
+    text-align: right;
+}
+footer p{
+    color: #ddd;
+    letter-spacing: 0.1em;
+    font-size: .8em;
+}
